@@ -1,0 +1,92 @@
+.trips_wrapper{
+    background-color: #f9f9fb;
+    padding:80px 13%;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px 30px; /* 15px for column spacing, 30px for row spacing */
+}
+
+.cards .card {
+    width: 100%; /* Ensure cards take the full grid width */
+    height: 350px;
+    box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    border: 0.8px solid rgba(131, 131, 131, 0.5);
+    margin-bottom: 30px; /* Add space between rows */
+}
+
+.cards .card img {
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+/* .cards{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px; 
+}
+    /* Reduced gap for less space between cards */
+
+ 
+
+
+/* .cards .card {
+    width: 80%;
+    height: 350px;
+    box-shadow: 8px 8px 4px rgba(0,0,0,0.1);
+    border-radius: 12px;
+    border: 0.8px solid rgba(131,131,131,0.5);
+
+    width: 100%; /
+    height: 350px;
+    box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    border: 0.8px solid rgba(131, 131, 131, 0.5);
+
+} */
+
+.cards .card img{
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.cards .card .TripContent{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: space-between;
+}
+.Pricing , .TripDetails{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rating i{
+    color:rgb(231, 76, 60);
+}
+.Pricing .price{
+    font-size: 18px;
+    font-weight: 600;
+    color:rgb(231,76,60)
+
+}
+.Cards .card i{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    background-color: #fff;
+    border-radius: 50%;
+    color: #000;
+}
+
